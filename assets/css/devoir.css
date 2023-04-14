@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*!
+ * Copyright 2012 Insipide2.0, Inc.
+ */
+
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-body {
+    margin-top: 4.5rem;
+}
+
+form {
+    width: 25rem;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: .65rem .65rem .65rem .65rem;
+    border-radius: .75rem;
+}
+
+.bg-or-wh {
+    background: linear-gradient(rgb(206, 172, 79),rgb(233, 197, 132), rgb(206, 172, 79));
+}
+
+.form-label {
+    font-size: .85rem;
+}
+
+.form-input {
+    border: 1px solid black;
+    border-radius: .35rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    padding: .75rem 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: wheat;
+    cursor: pointer;
+    border-radius: .6rem;
+}
+
+.mt-input {
+    margin-top: 1.5rem;
+}
+
+.center-content {
+    justify-content: center;
+    display: flex;
+}
+
+.fw-bolder {
+    font-weight: bolder;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
